@@ -46,6 +46,9 @@ public class CriterionOperatorRegistryImpl implements CriterionOperatorRegistry 
         registry.registerOperatorPredicate(CONTAINS, new ContainsOperatorPredicate());
         registry.registerOperatorPredicate(NOT_EQUAL, new NotEqualOperatorPredicate());
         registry.registerOperatorPredicate(LESS_THAN, new LessThanOperatorPredicate());
+        registry.registerOperatorPredicate(LESS_EQUAL, new LessEqualOperatorPredicate());
+        registry.registerOperatorPredicate(MORE_THAN, new MoreThanOperatorPredicate());
+        registry.registerOperatorPredicate(MORE_EQUAL, new MoreEqualOperatorPredicate());
         return registry;
     }
 

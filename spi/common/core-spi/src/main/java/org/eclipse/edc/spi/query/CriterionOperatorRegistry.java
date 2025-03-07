@@ -28,6 +28,9 @@ public interface CriterionOperatorRegistry {
     String ILIKE = "ilike";
     String CONTAINS = "contains";
     String LESS_THAN = "<";
+    String LESS_EQUAL = "<=";
+    String MORE_THAN = ">";
+    String MORE_EQUAL = ">=";
 
     /**
      * Register an operator with the related operator predicate.
